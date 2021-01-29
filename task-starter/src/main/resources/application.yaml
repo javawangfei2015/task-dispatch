@@ -1,0 +1,9 @@
+zookeeper:
+  hosts: "127.0.0.1:2181"
+  sessionTimeout: 5000
+  connectionTimeout: 5000
+  baseSleepTimeMs: 1000
+  maxRetry: 3
+server:
+  name: "node1"
+  host: "192.168.1.2"
